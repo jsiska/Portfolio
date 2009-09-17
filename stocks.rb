@@ -3,6 +3,8 @@ require "open-uri"
 require "csv"
 require "yaml"
 
+# Simple stock portfolio using Yahoo stocks
+
 class Time
   def to_s
     self.strftime("%m/%d/%Y %I:%M%p")
