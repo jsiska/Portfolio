@@ -37,5 +37,15 @@ class StockData
     CSV.parse open(url).read do |r|
       @data << r
     end
+    @data
   end
+end
+
+class StockHistory
+end
+
+class StockTransaction
+end
+
+class StockPortfolio
 end
